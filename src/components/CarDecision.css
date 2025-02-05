@@ -1,0 +1,80 @@
+.car-decision-section {
+  margin: 4rem 0;
+  text-align: center;
+  padding: 30px;
+}
+
+.car-decision-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #111111;
+}
+
+.car-decision-subtext {
+  font-size: 1.25rem;
+  color: #111111;
+  line-height: 1.5;
+  max-width: 670px;
+  margin: 0 auto 20px;
+}
+
+.main-card-decision {
+  position: relative;
+  width: 200px;
+}
+.card-content {
+  top: 22px;
+  left: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.car-decision-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.car-decision-card {
+  border-radius: 12px;
+  padding: 20px;
+
+  text-align: center;
+  position: relative;
+}
+
+.text-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.text-card p {
+  margin: 0;
+}
+
+.car-decision-icon {
+  width: 70px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.car-decision-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #111111;
+}
+
+.car-decision-link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 32px;
+  text-decoration: none;
+  color: white;
+  background-color: #3c4142;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}

@@ -1,0 +1,35 @@
+.partners-section {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #fff;
+}
+
+.partners-heading {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.partners-container {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  gap: 15px;
+}
+
+.partner-card {
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 132px;
+  height: 50px;
+}
+
+.partner-logo {
+  max-height: 30px;
+  max-width: 100%;
+  filter: brightness(0) invert(1); /* Ensure logos appear in white */
+}

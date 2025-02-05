@@ -1,0 +1,66 @@
+/* Hero Section Styling */
+.join-section {
+  position: relative;
+  background: url(../../public/images/meetbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 100px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.background-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.join-content {
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.join-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #111111;
+  margin: 0;
+}
+
+.join-description {
+  font-size: 1.25rem;
+  color: #111111;
+  line-height: 1.5;
+}
+
+.joinus-img img {
+  width: 80%;
+}
+
+.join-now-btn {
+  margin-top: 1rem;
+  background-color: #007291;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+}
+@media screen and (max-width: 768px) {
+  .join-section {
+    background-size: cover;
+  }
+
+  .join-description {
+    font-family: 0.75rem;
+  }
+}

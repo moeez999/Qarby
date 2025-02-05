@@ -1,0 +1,49 @@
+/* Hero Section Styling */
+.meet-section {
+  position: relative;
+  background: url(../../public/images/meetbg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+
+  padding: 100px 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.background-grid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+  z-index: -1;
+}
+
+.meet-content {
+  max-width: 570px;
+  margin: 0 auto;
+}
+
+.meet-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #111111;
+  margin: 0;
+}
+
+.meet-description {
+  font-size: 1.25rem;
+  color: #111111;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+  .meet-section {
+    background-size: cover;
+  }
+
+  .meet-description {
+    font-family: 0.75rem;
+  }
+}

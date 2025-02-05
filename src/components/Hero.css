@@ -1,0 +1,160 @@
+.hero-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  position: relative;
+}
+
+.hero-section .bg-img {
+  width: 95%;
+  padding: 1rem 1rem;
+}
+
+.find-car-btn {
+  margin-top: 1rem;
+  background-color: #007291;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1.75rem;
+  border: none;
+  border-radius: 8px;
+
+  position: absolute;
+  bottom: 128px;
+  right: 53px;
+}
+.hero-2 {
+  width: 10rem;
+}
+.hero-content {
+  background: url(../../public/images/hero-card.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.hero-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.hero-desc h3 {
+  margin: 0;
+}
+.hero-desc p {
+  margin: 0;
+}
+.hero-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+.bg-img {
+  display: block;
+}
+.bg-img-mb {
+  display: none;
+}
+
+.hero-content-mob {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .find-car-btn {
+    margin-top: 1rem;
+    background-color: #007291;
+    color: white;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 82px;
+    right: 23px;
+  }
+
+  .hero-desc h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .hero-desc p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .hero-2 {
+    width: 5rem;
+  }
+  .hero-card {
+    bottom: 20px;
+    right: 15px;
+    gap: 0.25rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content-mob {
+    padding: 12px 24px;
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    display: flex;
+    background-color: #f0f7f9;
+    border-radius: 10px;
+    align-items: center;
+  }
+  .hero-content {
+    display: none;
+  }
+  .bg-img {
+    display: none;
+  }
+  .bg-img-mb {
+    display: block;
+    width: 96%;
+  }
+
+  .hero-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background-color: #007291;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .hero-content-mob {
+    padding: 9px 16px;
+    position: absolute;
+    bottom: 8px;
+    right: 12px;
+    display: flex;
+    background-color: #f0f7f9;
+    border-radius: 10px;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .hero-content-mob {
+    padding: 7px 3px;
+    position: absolute;
+    bottom: 2px;
+    right: 9px;
+    display: flex;
+    background-color: #f0f7f9;
+    border-radius: 10px;
+    align-items: center;
+  }
+}
