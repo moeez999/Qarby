@@ -39,10 +39,12 @@ p {
 }
 .testimonial-container {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 15px;
-  overflow-x: hidden;
-  padding-left: 12rem;
+  overflow-x: auto;
+  padding-left: 4rem;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
 }
 .name {
   display: flex;
